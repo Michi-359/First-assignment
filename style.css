@@ -456,6 +456,11 @@ justify-content: center;
     font-family: 'Lato',sans-serif;
     font-size: 38px;
 }
+@media screen and (max-width: 767px){
+    .About__title h2 span {
+        letter-spacing: 1px;
+    }
+}
 .About__title h2 span{
     font-weight: 900;
 }
